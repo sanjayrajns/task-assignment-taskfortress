@@ -13,8 +13,7 @@
 5. [Backend Architecture](#5-backend-architecture)
 6. [Features Implemented](#6-features-implemented)
 7. [Technical Challenges & Improvements](#7-technical-challenges--improvements)
-8. [Production-Oriented Design Decisions](#8-production-oriented-design-decisions)
-9. [Conclusion](#9-conclusion)
+8. [Production-Oriented Design Decisions](#8-production-oriented-design-decisions
 
 ---
 
