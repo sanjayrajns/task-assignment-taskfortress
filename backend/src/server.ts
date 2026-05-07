@@ -9,7 +9,7 @@ const bootstrap = async (): Promise<void> => {
   const app = createApp();
 
   const server = app.listen(env.port, () => {
-    console.log(`\n🚀 Server running in ${env.nodeEnv} mode`);
+    console.log(`\n Server running in ${env.nodeEnv} mode`);
     console.log(`   ➜  Local:   http://localhost:${env.port}`);
     console.log(`   ➜  Health:  http://localhost:${env.port}/health`);
     console.log(`   ➜  API:     http://localhost:${env.port}/api/v1\n`);
@@ -19,13 +19,13 @@ const bootstrap = async (): Promise<void> => {
   const shutdown = (signal: string) => {
     console.log(`\n${signal} received. Shutting down gracefully...`);
     server.close(() => {
-      console.log('✅ HTTP server closed');
+      console.log(' HTTP server closed');
       process.exit(0);
     });
 
     // Force shutdown if graceful close takes too long
     setTimeout(() => {
-      console.error('⚠️  Forced shutdown after timeout');
+      console.error('Forced shutdown after timeout');
       process.exit(1);
     }, 10_000);
   };
@@ -41,7 +41,7 @@ const bootstrap = async (): Promise<void> => {
 
   // Handle uncaught exceptions — log and exit (process is in undefined state)
   process.on('uncaughtException', (error: Error) => {
-    console.error('💥 Uncaught Exception:', error);
+    console.error(' Uncaught Exception:', error);
     process.exit(1);
   });
 };
