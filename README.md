@@ -119,11 +119,6 @@ An admin account is required before any task operations can be performed. Run th
 ```bash
 npx ts-node src/seed-admin.ts
 ```
-
-**Default Admin Credentials:**
-- Email: `admin@taskfortress.com`
-- Password: `Admin@123`
-
 ---
 
 ### 2.2 Mobile Setup
