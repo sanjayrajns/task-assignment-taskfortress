@@ -1,4 +1,4 @@
-# TaskFortress — Full-Stack Role-Based Task Management System
+# TaskFortress  Full-Stack Role-Based Task Management System
 
 > **A rudimentary approach was initially taken during the early stages of the project to quickly satisfy the core project requirements and validate the overall workflow. As the project evolved, significant focus was placed on improving the UI/UX components on the mobile side and restructuring the backend architecture to mimic a production-grade system with better modularity, scalability, maintainability, and separation of concerns.**
 
