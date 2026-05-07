@@ -2,11 +2,11 @@
   "name": "role-based-task-manager",
   "version": "1.0.0",
   "description": "Production-grade Role-Based Task Manager API",
-  "main": "src/server.js",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "start": "node src/server.js",
+    "start": "node src/server.ts",
     "lint": "eslint src/**/*.ts"
   },
   "dependencies": {
